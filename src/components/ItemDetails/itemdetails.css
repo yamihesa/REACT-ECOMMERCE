@@ -1,0 +1,54 @@
+.item-detail {
+  background-color: rgba(96, 129, 221, 0.8);
+  border-radius: 5px;
+  width: 80%;
+  max-width: 540px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.item-detail > .item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+.item-detail > .item-info > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.item-detail > .item-options {
+  margin-left: 1rem;
+}
+.item-detail > .item-options > h3 {
+  font-size: 28px;
+  line-height: 32px;
+  padding-top: 2rem;
+}
+.item-detail > .item-options > h4 {
+  font-size: 32px;
+  line-height: 34px;
+  margin: 1rem 0 2rem;
+}
+.item-detail > .item-options > span {
+  display: block;
+  margin: 0.5rem 0;
+}
+.item-detail > .item-options > .button-group {
+  display: flex;
+  gap: 1.5rem;
+}
+.item-detail > .item-options > .button-group > button,
+.item-detail > .item-options > .button-group > a > button,
+.item-detail > .item-options > button {
+  display: block;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px 5px;
+  cursor: pointer;
+}

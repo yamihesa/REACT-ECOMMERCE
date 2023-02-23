@@ -1,0 +1,31 @@
+.item-count {
+  width: 200px;
+  display: flex;
+}
+.item-count > button {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(34, 123, 233);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.item-count > input {
+  display: block;
+  width: 60px;
+  height: 20px;
+  border: none;
+  text-align: center;
+}
+/* Chrome, Safari, Edge, Opera */
+.item-count > input::-webkit-outer-spin-button,
+.item-count > input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.item-count > input[type=number] {
+  appearance: textfield;
+}

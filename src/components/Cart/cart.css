@@ -1,0 +1,63 @@
+.cart {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.cart-message {
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.cart-message > p {
+  font-size: 30px;
+}
+
+.cart-message > a {
+  color: #fff;
+  font-size: 27px;
+  text-decoration: underline;
+}
+
+.cart-items {
+  width: 80%;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.cart-items > span {
+  display: block;
+  margin-left: auto;
+}
+
+.cart-items > .buttons {
+  width: 50%;
+  margin-left: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  gap: 1.5rem;
+}
+.cart-items > .buttons > button {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 5px;
+  cursor: pointer;
+}

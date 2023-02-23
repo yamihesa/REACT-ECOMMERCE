@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=PT+Sans+Narrow:wght@400;700&display=swap");
+
+.color1 {
+  color: #141e17;
+}
+.color2 {
+  color: #0d5274;
+}
+.color3 {
+  color: #ff6f1b;
+}
+.color4 {
+  color: #ffc64c;
+}
+.color5 {
+  color: #fffb91;
+}
+.font1 {
+  font-family: "Lora", serif;
+}
+.font2 {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  background-image: url(C:\Users\yamih\Documents\REACTPROYECTO\react_js_tienda-main\public\fondo404.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #ffffff;
+  letter-spacing: 0.125em;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}

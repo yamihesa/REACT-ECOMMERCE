@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgba(152, 142, 120, 0.5);
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  align-items: center;
+}
+.navbar-brand > a {
+  font-size: 30px;
+  line-height: 33px;
+  color: #fff;
+}
+.navbar-options {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+}
+.navbar-options > li > a {
+  font-size: 22px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar-options > li > a:hover {
+  color: rgb(82, 82, 185);
+}
+.navbar-cart {
+  display: flex;
+  justify-content: flex-end;
+}
