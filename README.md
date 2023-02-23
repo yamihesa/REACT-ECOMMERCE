@@ -1,4 +1,4 @@
-# `<code shop/>`
+
 
 Proyecto de e-commerce para el desarrollador en el cual se puede adquirir Cursos, Proyectos completos y estilos.
 
@@ -29,7 +29,5 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [React]
 * [Firestore Database]
 
-## Autor ✒️
 
-* **[Gabriel Tomasiello](www.linkedin.com/in/gabytomasiello)**
 # REACT-ECOMMERCE
